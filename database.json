@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Web Development"
+    },
+    {
+      "id": 2,
+      "topic": "Mobile Development"
+    },
+    {
+      "id": 3,
+      "topic": "Programming Languages"
+    },
+    {
+      "id": 4,
+      "topic": "Software Engineering"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding Asynchronous JavaScript",
+      "userId": 1,
+      "topicId": 1,
+      "date": "2023-10-01",
+      "body": "A deep dive into how JavaScript handles asynchronous operations and why callbacks are important."
+    },
+    {
+      "id": 2,
+      "title": "React vs. Vue: Which Framework to Choose?",
+      "userId": 2,
+      "topicId": 1,
+      "date": "2023-10-02",
+      "body": "I share my experiences using both React and Vue, and what influenced my choice."
+    },
+    {
+      "id": 3,
+      "title": "First Steps in Mobile App Development",
+      "userId": 3,
+      "topicId": 2,
+      "date": "2023-10-03",
+      "body": "An overview of tools and frameworks for getting started with mobile app development."
+    },
+    {
+      "id": 4,
+      "title": "My Journey Learning Python",
+      "userId": 4,
+      "topicId": 3,
+      "date": "2023-10-04",
+      "body": "Sharing the challenges and breakthroughs I encountered while learning Python."
+    },
+    {
+      "id": 5,
+      "title": "Best Practices for Debugging",
+      "userId": 1,
+      "topicId": 1,
+      "date": "2023-10-05",
+      "body": "Tips and techniques I learned for effectively debugging code."
+    }
+  ],
+  "userPosts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "postId": 4
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "postId": 5
+    }
+  ],
+  "userLikes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "postId": 5
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "postId": 3
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "postId": 4
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "postId": 1
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "postId": 2
+    },
+    {
+      "userId": 1,
+      "postId": 2,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "postId": 3,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "postId": 4,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "postId": 5,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "postId": 2,
+      "id": 12
+    }
+  ]
+}
