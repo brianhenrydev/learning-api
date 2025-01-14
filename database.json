@@ -3,21 +3,25 @@
     {
       "id": 1,
       "name": "John Doe",
+      "cohort": "74",
       "email": "john.doe@example.com"
     },
     {
       "id": 2,
       "name": "Jane Doe",
+      "cohort": "52",
       "email": "jane.doe@example.com"
     },
     {
       "id": 3,
       "name": "Alice Smith",
+      "cohort": "74",
       "email": "alice.smith@example.com"
     },
     {
       "id": 4,
       "name": "Bob Johnson",
+      "cohort": "73",
       "email": "bob.johnson@example.com"
     }
   ],
@@ -110,64 +114,14 @@
   ],
   "userLikes": [
     {
-      "id": 1,
       "userId": 1,
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "postId": 5
-    },
-    {
-      "id": 3,
-      "userId": 2,
-      "postId": 2
-    },
-    {
-      "id": 4,
-      "userId": 3,
-      "postId": 3
-    },
-    {
-      "id": 5,
-      "userId": 4,
-      "postId": 4
-    },
-    {
-      "id": 6,
-      "userId": 2,
-      "postId": 1
-    },
-    {
-      "id": 7,
-      "userId": 3,
-      "postId": 2
-    },
-    {
-      "userId": 1,
-      "postId": 2,
-      "id": 8
+      "postId": 4,
+      "id": 3
     },
     {
       "userId": 1,
       "postId": 3,
-      "id": 9
-    },
-    {
-      "userId": 1,
-      "postId": 4,
-      "id": 10
-    },
-    {
-      "userId": 1,
-      "postId": 5,
-      "id": 11
-    },
-    {
-      "userId": 1,
-      "postId": 2,
-      "id": 12
+      "id": 4
     }
   ]
 }
